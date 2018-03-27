@@ -1,6 +1,6 @@
 {
   "name": "fastboot-fs-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Sivakumar Kailasam <sivakumar.ur.friend@gmail.com>",
   "license": "MIT",
