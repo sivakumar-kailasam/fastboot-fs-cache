@@ -6,6 +6,7 @@ let { Promise } = require('rsvp')
 let { join: resolvePath } = require('path')
 
 let tmpDir = resolvePath(osTmpdir(), 'ember-api-docs')
+console.log(`FASTBOOT-FS-CACHE-DIR: ${tmpDir}`)
 
 class NimbleFastbootCache {
   constructor() {
