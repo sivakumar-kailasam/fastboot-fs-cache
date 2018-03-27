@@ -16,7 +16,7 @@ class NimbleFastbootCache {
   }
 
   resolveFileName(path) {
-    return (fileName = resolvePath(this.cacheDir, `${hash(path)}.html`))
+    return resolvePath(this.cacheDir, `${hash(path)}.html`)
   }
 
   fetch(path, request) {
